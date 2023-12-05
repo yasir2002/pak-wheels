@@ -2669,7 +2669,7 @@ a.thumbnail.active {
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 746px) {
   .header-top-left li,
   .header-top-right li {
     padding: 0 10px;
@@ -2684,6 +2684,9 @@ a.thumbnail.active {
   }
   .newsletters input {
     width: 150px;
+  }
+  .contact-top-bar{
+    display: block;
   }
 }
 /* =====  END RESPONSIVE CSS  =====*/
