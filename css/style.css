@@ -87,6 +87,12 @@ ul {
   padding-left: 0px;
   margin-bottom: 0;
 }
+.main-banner .item img {
+  height: 500px;
+  width: auto;
+  object-fit: cover;
+
+}
 .bg-gray {
   background: #f7f7f7;
 }
@@ -111,11 +117,10 @@ ul {
   color: #000;
 }
 
-
 a {
   cursor: pointer;
   text-decoration: none;
-  color: #E0FFFF;
+  color: #e0ffff;
   transition: all 0.25s ease 0s;
   -moz-transition: all 0.25s ease 0s;
   -webkit-transition: all 0.25s ease 0s;
@@ -195,8 +200,6 @@ h6 {
 .capitalize {
   text-transform: capitalize;
 }
-
-
 
 .box {
   margin: 0 -10px;
@@ -445,8 +448,6 @@ h6 {
   padding-bottom: 100px;
 }
 
-
-
 .btn {
   background: #424242 none repeat scroll 0 0;
   border-radius: 0;
@@ -544,7 +545,6 @@ i.right {
   left: 0;
 }
 
-
 .panel-default {
   width: 100%;
 }
@@ -559,8 +559,6 @@ i.right {
   border-color: #e5e5e5;
 }
 
-
-
 .nav > li > a {
   padding: 10px 15px;
   border-radius: 0;
@@ -574,8 +572,6 @@ i.right {
 #product-tab .nav li {
   display: inline-block;
 }
-
-
 
 .progress-title {
   font-size: 16px;
@@ -684,8 +680,6 @@ i.right {
   color: #000;
 }
 
-
-
 input[type="text"],
 input[type="email"],
 input[type="tel"],
@@ -770,8 +764,6 @@ textarea:focus {
   box-shadow: none;
   border-color: #000;
 }
-
-
 
 .newsletters {
   display: inline-block;
@@ -916,15 +908,14 @@ label.checkme {
   float: left;
 }
 
-
 /* ===== Header top Style ===== */
-.contact-top-bar{
+.contact-top-bar {
   display: flex;
   align-items: center;
 }
 
 .headerLogo {
-  background: #4e4e4e
+  background: #4e4e4e;
 }
 
 .header-top {
@@ -980,7 +971,6 @@ label.checkme {
   vertical-align: -1px;
 }
 
-
 .navbar {
   border-radius: 0;
   border: 0;
@@ -1011,7 +1001,6 @@ label.checkme {
   margin-bottom: 0;
   border-radius: 0;
 }
-
 
 .navbar-toggle {
   background-color: transparent;
@@ -1138,8 +1127,6 @@ label.checkme {
   margin-right: 20px;
 }
 
-
-
 .main-search {
   margin-bottom: 0;
   width: 220px;
@@ -1222,7 +1209,6 @@ label.checkme {
   background: #fff;
 }
 
-
 #shippingcart {
   float: left;
   font-size: 14px;
@@ -1284,8 +1270,6 @@ label.checkme {
 #cart-dropdown .table > tbody > tr > td {
   padding: 10px 0;
 }
-
-
 
 .header-bottom-left {
   background: #f2f2f2 none repeat scroll 0 0;
@@ -1374,8 +1358,6 @@ label.checkme {
   border: none;
 }
 
-
-
 .left_banner {
   display: inline-block;
 }
@@ -1463,7 +1445,6 @@ input#amount {
   color: #000;
 }
 
-
 .main-banner .owl-dots {
   bottom: 20px;
   position: absolute;
@@ -1491,7 +1472,6 @@ input#amount {
   margin: 4px;
   width: 14px;
 }
-
 
 .banner {
   overflow: hidden;
@@ -1539,7 +1519,6 @@ input#amount {
   color: #fa4251;
 }
 
-
 .main_title {
   font-size: 20px;
   float: left;
@@ -1566,6 +1545,11 @@ input#amount {
   right: 55px;
   top: -8px;
 }
+.img-responsive{
+  width: 100%;
+  height: auto;
+  height: 200px;
+}
 #product-thumbnail .owl-nav {
   top: 38px;
 }
@@ -1577,8 +1561,6 @@ input#amount {
 #product-thumbnail .owl-nav .owl-prev {
   left: 0;
 }
-
-
 
 .breadcrumb {
   background-image: url("../images/breadcrumb.jpg");
@@ -1625,7 +1607,6 @@ input#amount {
 .breadcrumb li a:hover {
   color: #fff !important;
 }
-
 
 .date-time {
   background: #fff none repeat scroll 0 0;
@@ -1718,7 +1699,6 @@ input#amount {
   transition: all 0.2s ease-out 0s;
 }
 
-
 article,
 .author {
   display: inline-block;
@@ -1737,7 +1717,6 @@ article,
 blockquote {
   border-color: #fa4251;
 }
-
 
 #product-tab .product-thumb,
 .latest .product-thumb {
@@ -1993,7 +1972,6 @@ blockquote {
   padding: 0px;
 }
 
-
 #client .type-01 {
   margin: 0 20px;
 }
@@ -2029,7 +2007,6 @@ blockquote {
 .client-designation {
   color: #fa4251;
 }
-
 
 .owl-nav {
   position: absolute;
@@ -2114,7 +2091,6 @@ blockquote {
   width: 14px;
 }
 
-
 .about-heading {
   text-transform: uppercase;
   font-weight: 700;
@@ -2128,8 +2104,6 @@ blockquote {
   font-size: 18px;
   color: #000;
 }
-
-
 
 .team-detail {
   padding: 0 10px;
@@ -2169,13 +2143,9 @@ blockquote {
   margin: 5px;
 }
 
-
-
 .contact .fa {
   margin-right: 10px;
 }
-
-
 
 a.thumbnails {
   border: 1px solid #ddd;
@@ -2198,13 +2168,9 @@ a.thumbnail.active {
   margin: 0 10px 10px;
 }
 
-
-
 #register-form {
   display: none;
 }
-
-
 
 .map_right #map {
   height: 530px;
@@ -2215,14 +2181,12 @@ a.thumbnail.active {
   background-color: grey;
 }
 
-
 .brand a img {
   opacity: 0.4;
 }
 .brand a:hover img {
   opacity: 1;
 }
-
 
 .footer-top {
   float: left;
@@ -2321,8 +2285,6 @@ a.thumbnail.active {
   line-height: 35px;
   padding: 0 5px 0;
 }
-
-
 
 #scrollup::before {
   background: #fa4251 none repeat scroll 0 0;
